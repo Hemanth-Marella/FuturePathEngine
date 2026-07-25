@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-core
+langchain-groq
+python-dotenv
+fastapi
+uvicorn[standard]
+requests
+pymongo
+motor
+fastembed
+langchain-google-genai
+python-multipart
+langgraph
+
+# %LOCALAPPDATA%\Temp # check fast embed cache
