@@ -1,0 +1,61 @@
+{
+  "group": "BiPC",
+  "full_form": "Biology, Physics, Chemistry",
+  "reason": "Suitable for students interested in medicine, healthcare, biological sciences, pharmacy, agriculture, biotechnology, and life sciences.",
+  "subjects": [
+    "Biology",
+    "Physics",
+    "Chemistry"
+  ],
+  "higher_studies": [
+    "MBBS",
+    "BDS",
+    "BAMS",
+    "BHMS",
+    "BPT",
+    "B.Sc Nursing",
+    "B.Pharmacy",
+    "Pharm.D",
+    "B.Sc Biotechnology",
+    "B.Sc Microbiology",
+    "B.Sc Agriculture",
+    "B.Sc Zoology",
+    "B.Sc Botany",
+    "B.V.Sc",
+    "B.Sc Food Technology"
+  ],
+  "entrance_exams": [
+    "NEET UG",
+    "EAMCET (Agriculture & Pharmacy)",
+    "ICAR AIEEA",
+    "CUET UG",
+    "State Medical Entrance Exams"
+  ],
+  "career_options": [
+    "Doctor",
+    "Dentist",
+    "Pharmacist",
+    "Nurse",
+    "Physiotherapist",
+    "Biotechnologist",
+    "Microbiologist",
+    "Agricultural Scientist",
+    "Veterinary Doctor",
+    "Clinical Research Associate",
+    "Food Technologist",
+    "Medical Laboratory Scientist",
+    "Public Health Officer",
+    "Biomedical Scientist"
+  ],
+  "required_skills": [
+    "Biology Knowledge",
+    "Observation Skills",
+    "Critical Thinking",
+    "Communication Skills",
+    "Problem Solving",
+    "Patience",
+    "Empathy"
+  ],
+  "future_scope": "Excellent",
+  "average_duration_after_10th": "2 years Intermediate + 4 to 6 years Graduation depending on the course"
+}

@@ -1,0 +1,50 @@
+{
+  "group": "MEC",
+  "full_form": "Mathematics, Economics, Commerce",
+  "reason": "Suitable for students interested in business, commerce, finance, banking, accounting, economics, and entrepreneurship.",
+  "subjects": [
+    "Mathematics",
+    "Economics",
+    "Commerce"
+  ],
+  "higher_studies": [
+    "B.Com",
+    "BBA",
+    "BBM",
+    "CA",
+    "CS",
+    "CMA",
+    "B.Sc Economics",
+    "Bachelor of Financial Markets",
+    "Bachelor of Accounting and Finance",
+    "MBA"
+  ],
+  "entrance_exams": [
+    "CUET UG",
+    "CA Foundation",
+    "CMA Foundation",
+    "CS Executive Entrance Test (CSEET)",
+    "State University Entrance Exams"
+  ],
+  "career_options": [
+    "Chartered Accountant",
+    "Company Secretary",
+    "Cost Accountant",
+    "Financial Analyst",
+    "Investment Banker",
+    "Bank Manager",
+    "Business Analyst",
+    "Entrepreneur",
+    "Tax Consultant",
+    "Auditor"
+  ],
+  "required_skills": [
+    "Analytical Thinking",
+    "Mathematics",
+    "Business Knowledge",
+    "Communication Skills",
+    "Problem Solving"
+  ],
+  "future_scope": "Excellent",
+  "average_duration_after_10th": "2 years Intermediate + 3 to 5 years Graduation/Professional Course"
+}

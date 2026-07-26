@@ -1,0 +1,46 @@
+{
+  "group": "MPC",
+  "full_form": "Mathematics, Physics, Chemistry",
+  "reason": "Suitable for students interested in engineering, technology, computer science, and mathematics.",
+  "subjects": [
+    "Mathematics",
+    "Physics",
+    "Chemistry"
+  ],
+  "higher_studies": [
+    "B.Tech",
+    "B.E",
+    "B.Sc Computer Science",
+    "BCA",
+    "B.Sc Mathematics",
+    "B.Sc Physics",
+    "B.Arch"
+  ],
+  "entrance_exams": [
+    "JEE Main",
+    "JEE Advanced",
+    "BITSAT",
+    "State Engineering Entrance Exams"
+  ],
+  "career_options": [
+    "Software Engineer",
+    "AI Engineer",
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Civil Engineer",
+    "Mechanical Engineer",
+    "Electrical Engineer",
+    "Electronics Engineer",
+    "Research Scientist",
+    "Cyber Security Engineer"
+  ],
+  "required_skills": [
+    "Problem Solving",
+    "Logical Thinking",
+    "Mathematics",
+    "Programming",
+    "Analytical Skills"
+  ],
+  "future_scope": "Excellent",
+  "average_duration_after_10th": "2 years Intermediate + 3 to 4 years Graduation"
+}

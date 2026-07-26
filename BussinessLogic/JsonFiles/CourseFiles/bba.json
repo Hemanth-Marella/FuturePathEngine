@@ -1,0 +1,29 @@
+{
+  "course": "BBA",
+  "full_form": "Bachelor of Business Administration",
+  "duration": "3 Years",
+  "eligibility": "Intermediate (Any Stream)",
+  "entrance_exams": [
+    "CUET UG",
+    "University Entrance Exams"
+  ],
+  "specializations": [
+    "Marketing",
+    "Finance",
+    "Human Resources",
+    "Business Analytics",
+    "International Business"
+  ],
+  "higher_studies": [
+    "MBA",
+    "PGDM",
+    "M.Com"
+  ],
+  "career_options": [
+    "Business Analyst",
+    "Marketing Executive",
+    "HR Manager",
+    "Sales Manager",
+    "Entrepreneur"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "group": "HEC",
+  "full_form": "History, Economics, Civics",
+  "reason": "Suitable for students interested in humanities, social sciences, public administration, law, journalism, and civil services.",
+  "subjects": [
+    "History",
+    "Economics",
+    "Civics"
+  ],
+  "higher_studies": [
+    "BA History",
+    "BA Economics",
+    "BA Political Science",
+    "BA Public Administration",
+    "BA Journalism",
+    "LLB",
+    "Bachelor of Social Work",
+    "MBA",
+    "MA"
+  ],
+  "entrance_exams": [
+    "CUET UG",
+    "CLAT",
+    "AILET",
+    "University Entrance Exams"
+  ],
+  "career_options": [
+    "IAS Officer",
+    "IPS Officer",
+    "Journalist",
+    "Lawyer",
+    "Historian",
+    "Teacher",
+    "Professor",
+    "Public Administrator",
+    "Social Worker",
+    "Political Analyst"
+  ],
+  "required_skills": [
+    "Communication Skills",
+    "Research Skills",
+    "Critical Thinking",
+    "Writing Skills",
+    "Public Speaking"
+  ],
+  "future_scope": "Good",
+  "average_duration_after_10th": "2 years Intermediate + 3 to 5 years Graduation"
+}

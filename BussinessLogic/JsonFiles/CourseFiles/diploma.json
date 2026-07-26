@@ -1,0 +1,26 @@
+{
+  "course": "Diploma Engineering",
+  "duration": "3 Years",
+  "eligibility": "After 10th",
+  "entrance_exams": [
+    "State Polytechnic Entrance Exam"
+  ],
+  "specializations": [
+    "Computer Engineering",
+    "Mechanical Engineering",
+    "Civil Engineering",
+    "Electrical Engineering",
+    "Electronics Engineering"
+  ],
+  "higher_studies": [
+    "B.Tech (Lateral Entry)",
+    "B.E (Lateral Entry)"
+  ],
+  "career_options": [
+    "Junior Engineer",
+    "CAD Designer",
+    "Site Engineer",
+    "Technician",
+    "Network Engineer"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "course": "CA",
+  "full_form": "Chartered Accountancy",
+  "duration": "4.5 to 5 Years",
+  "eligibility": "Intermediate (Any Stream)",
+  "entrance_exams": [
+    "CA Foundation"
+  ],
+  "specializations": [
+    "Auditing",
+    "Taxation",
+    "Financial Reporting",
+    "Corporate Finance"
+  ],
+  "higher_studies": [
+    "CPA",
+    "MBA",
+    "ACCA"
+  ],
+  "career_options": [
+    "Chartered Accountant",
+    "Financial Consultant",
+    "Auditor",
+    "Tax Advisor",
+    "Chief Financial Officer"
+  ]
+}

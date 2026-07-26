@@ -1,0 +1,31 @@
+{
+  "course": "B.Com",
+  "full_form": "Bachelor of Commerce",
+  "duration": "3 Years",
+  "eligibility": "Intermediate MEC/CEC or equivalent",
+  "entrance_exams": [
+    "CUET UG",
+    "University Entrance Exams"
+  ],
+  "specializations": [
+    "Accounting",
+    "Finance",
+    "Taxation",
+    "Banking",
+    "Computer Applications"
+  ],
+  "higher_studies": [
+    "M.Com",
+    "MBA",
+    "CA",
+    "CMA",
+    "CS"
+  ],
+  "career_options": [
+    "Accountant",
+    "Financial Analyst",
+    "Tax Consultant",
+    "Auditor",
+    "Bank Officer"
+  ]
+}

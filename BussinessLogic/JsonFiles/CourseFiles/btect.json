@@ -1,0 +1,27 @@
+{
+    "course": "B.Tech",
+    "duration": "4 Years",
+    "eligibility": "Intermediate MPC",
+    "entrance_exams": [
+        "JEE Main",
+        "JEE Advanced",
+        "State Engineering Entrance Exams"
+    ],
+    "specializations": [
+        "Computer Science",
+        "Artificial Intelligence",
+        "Mechanical",
+        "Civil",
+        "Electronics"
+    ],
+    "higher_studies": [
+        "M.Tech",
+        "MBA",
+        "MS"
+    ],
+    "career_options": [
+        "Software Engineer",
+        "AI Engineer",
+        "Data Engineer"
+    ]
+}

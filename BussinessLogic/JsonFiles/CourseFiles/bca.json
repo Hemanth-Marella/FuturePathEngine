@@ -1,0 +1,29 @@
+{
+  "course": "BCA",
+  "full_form": "Bachelor of Computer Applications",
+  "duration": "3 Years",
+  "eligibility": "Intermediate (MPC/MEC/CEC or equivalent as per university rules)",
+  "entrance_exams": [
+    "CUET UG",
+    "University Entrance Exams"
+  ],
+  "specializations": [
+    "Software Development",
+    "Data Science",
+    "Artificial Intelligence",
+    "Cyber Security",
+    "Cloud Computing"
+  ],
+  "higher_studies": [
+    "MCA",
+    "M.Sc Computer Science",
+    "MBA"
+  ],
+  "career_options": [
+    "Software Developer",
+    "Web Developer",
+    "AI Engineer",
+    "Data Analyst",
+    "Cyber Security Analyst"
+  ]
+}

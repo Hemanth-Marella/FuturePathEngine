@@ -1,0 +1,30 @@
+{
+  "course": "MBBS",
+  "full_form": "Bachelor of Medicine and Bachelor of Surgery",
+  "duration": "5.5 Years",
+  "eligibility": "Intermediate BiPC",
+  "entrance_exams": [
+    "NEET UG"
+  ],
+  "specializations": [
+    "General Medicine",
+    "Surgery",
+    "Pediatrics",
+    "Orthopedics",
+    "Cardiology",
+    "Neurology"
+  ],
+  "higher_studies": [
+    "MD",
+    "MS",
+    "DM",
+    "MCh"
+  ],
+  "career_options": [
+    "Doctor",
+    "Surgeon",
+    "Medical Officer",
+    "Hospital Administrator",
+    "Medical Researcher"
+  ]
+}
