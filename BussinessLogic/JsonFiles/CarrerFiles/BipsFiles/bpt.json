@@ -1,0 +1,26 @@
+{
+  "career_path": "BPT",
+  "description": "Become a physiotherapist helping patients recover physical mobility.",
+  "degrees": ["BPT"],
+  "eligibility": "Intermediate (BiPC)",
+  "entrance_exams": [
+    "State CET",
+    "University Entrance Exam"
+  ],
+  "course_duration": "4.5 years",
+  "specializations": [
+    "Sports Physiotherapy",
+    "Neurology",
+    "Orthopedics",
+    "Cardiopulmonary"
+  ],
+  "abroad_study": {
+    "available": true,
+    "popular_countries": ["Canada", "Australia", "UK"]
+  },
+  "approximate_salary": {
+    "india": "₹3 LPA - ₹12+ LPA",
+    "abroad": "$60,000 - $110,000 per year"
+  },
+  "study_difficulty": "Moderate to High"
+}

@@ -1,0 +1,22 @@
+{
+  "career_path": "BHMS",
+  "description": "Study Homeopathic medicine and patient care.",
+  "degrees": ["BHMS"],
+  "eligibility": "Intermediate (BiPC)",
+  "entrance_exams": ["NEET UG"],
+  "course_duration": "5.5 years",
+  "specializations": [
+    "Homeopathic Pharmacy",
+    "Psychiatry",
+    "Pediatrics"
+  ],
+  "abroad_study": {
+    "available": true,
+    "popular_countries": ["UK", "Germany"]
+  },
+  "approximate_salary": {
+    "india": "₹3 LPA - ₹12+ LPA",
+    "abroad": "$40,000 - $100,000 per year"
+  },
+  "study_difficulty": "High"
+}

@@ -1,0 +1,23 @@
+{
+  "career_path": "BAMS",
+  "description": "Study Ayurvedic medicine and traditional healthcare.",
+  "degrees": ["BAMS"],
+  "eligibility": "Intermediate (BiPC)",
+  "entrance_exams": ["NEET UG"],
+  "course_duration": "5.5 years",
+  "specializations": [
+    "Kayachikitsa",
+    "Shalya Tantra",
+    "Panchakarma",
+    "Kaumarbhritya"
+  ],
+  "abroad_study": {
+    "available": true,
+    "popular_countries": ["Germany", "USA", "Australia"]
+  },
+  "approximate_salary": {
+    "india": "₹4 LPA - ₹15+ LPA",
+    "abroad": "$50,000 - $120,000 per year"
+  },
+  "study_difficulty": "High"
+}

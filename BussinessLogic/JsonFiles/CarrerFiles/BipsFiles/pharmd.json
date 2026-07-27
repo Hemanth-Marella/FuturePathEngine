@@ -1,0 +1,25 @@
+{
+  "career_path": "Pharm.D",
+  "description": "Doctor of Pharmacy focused on clinical pharmacy practice.",
+  "degrees": ["Pharm.D"],
+  "eligibility": "Intermediate (BiPC/MPC)",
+  "entrance_exams": [
+    "AP EAPCET",
+    "TS EAPCET"
+  ],
+  "course_duration": "6 years",
+  "specializations": [
+    "Clinical Pharmacy",
+    "Hospital Pharmacy",
+    "Drug Safety"
+  ],
+  "abroad_study": {
+    "available": true,
+    "popular_countries": ["USA", "Canada", "Australia"]
+  },
+  "approximate_salary": {
+    "india": "₹5 LPA - ₹18+ LPA",
+    "abroad": "$90,000 - $150,000 per year"
+  },
+  "study_difficulty": "High"
+}

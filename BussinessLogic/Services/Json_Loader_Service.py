@@ -10,7 +10,7 @@ class JsonLoaderService:
 
         self.data_directory = Path(data_directory)
 
-    def load_json(self, category: str, filename: str) -> Dict[str, Any]:
+    async def load_json(self, category: str, filename: str) -> Dict[str, Any]:
         """
         Load a single JSON file.
 

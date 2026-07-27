@@ -1,0 +1,25 @@
+{
+  "career_path": "MBBS",
+  "description": "Become a medical doctor specializing in diagnosing, treating, and preventing diseases.",
+  "degrees": ["MBBS"],
+  "eligibility": "Intermediate (BiPC) with Physics, Chemistry, Biology",
+  "entrance_exams": ["NEET UG"],
+  "course_duration": "5.5 years (including internship)",
+  "specializations": [
+    "Cardiology",
+    "Neurology",
+    "Orthopedics",
+    "General Surgery",
+    "Pediatrics",
+    "Dermatology"
+  ],
+  "abroad_study": {
+    "available": true,
+    "popular_countries": ["USA", "UK", "Canada", "Australia", "Germany"]
+  },
+  "approximate_salary": {
+    "india": "₹6 LPA - ₹30+ LPA",
+    "abroad": "$80,000 - $300,000+ per year"
+  },
+  "study_difficulty": "Very High"
+}

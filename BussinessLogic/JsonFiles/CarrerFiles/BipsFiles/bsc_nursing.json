@@ -1,0 +1,27 @@
+{
+  "career_path": "B.Sc Nursing",
+  "description": "Professional nursing education for patient care and healthcare services.",
+  "degrees": ["B.Sc Nursing"],
+  "eligibility": "Intermediate (BiPC)",
+  "entrance_exams": [
+    "State Nursing Entrance",
+    "AIIMS B.Sc Nursing",
+    "JIPMER"
+  ],
+  "course_duration": "4 years",
+  "specializations": [
+    "Critical Care",
+    "Pediatric Nursing",
+    "Psychiatric Nursing",
+    "Community Health"
+  ],
+  "abroad_study": {
+    "available": true,
+    "popular_countries": ["Canada", "Australia", "UK", "USA"]
+  },
+  "approximate_salary": {
+    "india": "₹3 LPA - ₹10+ LPA",
+    "abroad": "$65,000 - $120,000 per year"
+  },
+  "study_difficulty": "Moderate"
+}

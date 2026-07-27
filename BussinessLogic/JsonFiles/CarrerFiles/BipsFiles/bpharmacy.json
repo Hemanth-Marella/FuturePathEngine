@@ -1,0 +1,27 @@
+{
+  "career_path": "B.Pharmacy",
+  "description": "Study pharmaceutical sciences and medicine development.",
+  "degrees": ["B.Pharmacy"],
+  "eligibility": "Intermediate (BiPC/MPC)",
+  "entrance_exams": [
+    "AP EAPCET",
+    "TS EAPCET",
+    "MHT CET"
+  ],
+  "course_duration": "4 years",
+  "specializations": [
+    "Pharmacology",
+    "Pharmaceutics",
+    "Clinical Pharmacy",
+    "Industrial Pharmacy"
+  ],
+  "abroad_study": {
+    "available": true,
+    "popular_countries": ["USA", "Canada", "Australia", "Ireland"]
+  },
+  "approximate_salary": {
+    "india": "₹4 LPA - ₹15+ LPA",
+    "abroad": "$70,000 - $140,000 per year"
+  },
+  "study_difficulty": "Moderate"
+}
