@@ -1,7 +1,8 @@
-from ..Agents.planner_agent import PlannerAgent
+from ..Agents.planner_agent import planner_agent
 from fastapi import APIRouter
 from ..LanggraphTools import Langgraph_state
 from pydantic import BaseModel
+from ..LangGraph.GraphBuilder import graph
 
 router = APIRouter(prefix="/planner")
 
@@ -23,6 +24,6 @@ async def user_details(request:User_details):
         "Execution_plan":[]
     }
 
-    planner = PlannerAgent(state=initial_state)
+    result = await graph.ainvoke(initial_state)
 
-    return await planner.planner_agent()
+    return result

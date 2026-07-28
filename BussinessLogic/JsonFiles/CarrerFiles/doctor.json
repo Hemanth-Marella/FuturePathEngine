@@ -1,0 +1,72 @@
+{
+  "career_name": "Doctor",
+  "description": "A healthcare professional who diagnoses, treats, and prevents diseases while improving the health and well-being of patients.",
+  "recommended_degree": [
+    "MBBS"
+  ],
+  "job_roles": [
+    "General Physician",
+    "Medical Officer",
+    "Surgeon",
+    "Consultant",
+    "Hospital Doctor",
+    "Emergency Physician"
+  ],
+  "specializations": [
+    "Cardiology",
+    "Neurology",
+    "Orthopedics",
+    "Dermatology",
+    "Pediatrics",
+    "Psychiatry",
+    "Radiology",
+    "General Surgery",
+    "ENT",
+    "Ophthalmology",
+    "Anesthesiology",
+    "Obstetrics and Gynecology"
+  ],
+  "required_skills": [
+    "Medical Knowledge",
+    "Critical Thinking",
+    "Communication",
+    "Decision Making",
+    "Problem Solving",
+    "Empathy",
+    "Leadership",
+    "Teamwork"
+  ],
+  "workplaces": [
+    "Government Hospitals",
+    "Private Hospitals",
+    "Clinics",
+    "Medical Colleges",
+    "Research Centers",
+    "Healthcare Organizations"
+  ],
+  "abroad_opportunities": {
+    "available": true,
+    "popular_countries": [
+      "USA",
+      "UK",
+      "Canada",
+      "Australia",
+      "Germany"
+    ]
+  },
+  "salary": {
+    "fresher_india": "₹6 LPA - ₹10 LPA",
+    "experienced_india": "₹15 LPA - ₹40+ LPA",
+    "abroad": "$80,000 - $300,000+ per year"
+  },
+  "career_growth": [
+    "Junior Doctor",
+    "Senior Resident",
+    "Specialist",
+    "Consultant",
+    "Senior Consultant",
+    "Hospital Director"
+  ],
+  "future_demand": "Very High",
+  "difficulty_level": "Very High"
+}

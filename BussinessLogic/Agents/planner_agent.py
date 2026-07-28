@@ -6,158 +6,149 @@ load_dotenv()
 import os
 from ..LanggraphTools import Langgraph_state
 from langchain.messages import HumanMessage
+import json
 
-class PlannerAgent:
+async def planner_agent(state:Langgraph_state.LanggraphState):
 
-    def __init__(self,state:Langgraph_state.LanggraphState):
-
-        self.llm = ChatGroq(
+    llm = ChatGroq(
             model="llama-3.1-8b-instant",
             api_key=os.getenv("FUTURE_GROQ_KEY"),
             temperature=0.1
         )
 
-        self.state = state
+    planner_prompt = f"""
+        You are an intelligent Planner Agent for a Future Career Guidance AI.
 
-    async def planner_agent(self):
+        Your job is NOT to answer the student's question.
 
-        planner_prompt = f"""
-            You are an intelligent Planner Agent for a Future Career Guidance AI.
+        Your only responsibility is to create an execution plan that tells the system
+        which knowledge sources should be loaded before generating the final answer.
 
-            Your job is NOT to answer the student's question.
+        Student Query:
+        {state['query']}
 
-            Your only responsibility is to create an execution plan that tells the system
-            which knowledge sources should be loaded before generating the final answer.
+        Selected Intermediate Group:
+        {state['group']}
 
-            Student Query:
-            {self.state['query']}
+        got marks:
+        {state['marks']}
 
-            Selected Intermediate Group:
-            {self.state['group']}
+        Available Knowledge Sources:
 
-            got marks:
-            {self.state['marks']}
+        1. group
+        - Information about the selected intermediate group.
+        - Example:
+            MPC
+            BiPC
+            MEC
+            CEC
+            HEC
+            Vocational
 
-            Available Knowledge Sources:
+        2. careers
+        - Career options after the selected group.
 
-            1. group
-            - Information about the selected intermediate group.
-            - Example:
-                MPC
-                BiPC
-                MEC
-                CEC
-                HEC
-                Vocational
+        3. skills
+        - Required technical and soft skills.
 
-            2. careers
-            - Career options after the selected group.
+        4. degrees
+        - Degree courses after Intermediate.
 
-            3. skills
-            - Required technical and soft skills.
+        5. diploma
+        - Diploma options.
 
-            4. degrees
-            - Degree courses after Intermediate.
+        6. colleges
+        - Colleges offering the recommended course.
 
-            5. diploma
-            - Diploma options.
+        7. exams
+        - Entrance exams.
 
-            6. colleges
-            - Colleges offering the recommended course.
+        8. roadmap
+        - Step-by-step career roadmap.
 
-            7. exams
-            - Entrance exams.
+        9. salary
+        - Salary information.
 
-            8. roadmap
-            - Step-by-step career roadmap.
+        10. higher_studies
+        - Masters and higher education.
 
-            9. salary
-            - Salary information.
+        11. abroad
+        - Study abroad opportunities.
 
-            10. higher_studies
-            - Masters and higher education.
+        12. scholarships
+        - Scholarships and financial aid.
 
-            11. abroad
-            - Study abroad opportunities.
+        13. generate_answer
+        - Final answer generation node.
+        - This MUST always be the last step.
 
-            12. scholarships
-            - Scholarships and financial aid.
+        Rules:
 
-            13. generate_answer
-            - Final answer generation node.
-            - This MUST always be the last step.
+        - Think carefully about what information is needed.
+        - Include only the required nodes.
+        - Do NOT include unnecessary nodes.
+        - The first node must always be "group".
+        - The last node must always be "generate_answer".
+        - Return ONLY a JSON array.
+        - Do NOT explain anything.
+        - Do NOT use markdown.
 
-            Rules:
+        Examples
 
-            - Think carefully about what information is needed.
-            - Include only the required nodes.
-            - Do NOT include unnecessary nodes.
-            - The first node must always be "group".
-            - The last node must always be "generate_answer".
-            - Return ONLY a JSON array.
-            - Do NOT explain anything.
-            - Do NOT use markdown.
+        Example 1
 
-            Examples
+        Query:
+        I want to become an AI Engineer.
 
-            Example 1
+        Output
 
-            Query:
-            I want to become an AI Engineer.
+        [
+            "group",
+            "careers",
+            "skills",
+            "degrees",
+            "colleges",
+            "roadmap",
+            "salary",
+            "generate_answer"
+        ]
 
-            Output
+        Example 2
 
-            [
-                "group",
-                "careers",
-                "skills",
-                "degrees",
-                "colleges",
-                "roadmap",
-                "salary",
-                "generate_answer"
-            ]
+        Query:
+        Can I study abroad after MPC?
 
-            Example 2
+        Output
 
-            Query:
-            Can I study abroad after MPC?
+        [
+            "group",
+            "degrees",
+            "abroad",
+            "scholarships",
+            "generate_answer"
+        ]
 
-            Output
+        Example 3
 
-            [
-                "group",
-                "degrees",
-                "abroad",
-                "scholarships",
-                "generate_answer"
-            ]
+        Query:
+        What entrance exams are required for MBBS?
 
-            Example 3
+        Output
 
-            Query:
-            What entrance exams are required for MBBS?
+        ["group","careers","degrees","exams","generate_answer"]
 
-            Output
+        Generate the execution plan now. and return output as list
+        """
 
-            [
-                "group",
-                "careers",
-                "degrees",
-                "exams",
-                "generate_answer"
-            ]
+    response = await llm.ainvoke(
+        [HumanMessage(content=planner_prompt)]
+    )
 
-            Generate the execution plan now.
-            """
+    print("execution plan is : ",response.content)
 
-        response = await self.llm.ainvoke(
-            [HumanMessage(content=planner_prompt)]
-        )
+    output = json.loads(response.content)
 
-        print("execution plan is : ",response.content)
-
-        return  {
-            'Execution_plan' : response.content
-        }
+    return  {
+        'Execution_plan' : output
+    }
 

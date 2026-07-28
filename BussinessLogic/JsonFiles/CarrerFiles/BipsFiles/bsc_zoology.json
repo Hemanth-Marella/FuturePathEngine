@@ -1,0 +1,32 @@
+{
+  "career_path": "B.Sc Zoology",
+  "description": "Study animals, their biology, behavior, evolution, and ecosystems to contribute to wildlife conservation, research, and healthcare.",
+  "degrees": ["B.Sc Zoology"],
+  "eligibility": "Intermediate (BiPC)",
+  "entrance_exams": [
+    "State CET",
+    "University Entrance Exam"
+  ],
+  "course_duration": "3 years",
+  "specializations": [
+    "Wildlife Biology",
+    "Animal Physiology",
+    "Entomology",
+    "Marine Zoology"
+  ],
+  "abroad_study": {
+    "available": true,
+    "popular_countries": [
+      "USA",
+      "Canada",
+      "Australia",
+      "UK",
+      "New Zealand"
+    ]
+  },
+  "approximate_salary": {
+    "india": "₹3 LPA - ₹8+ LPA",
+    "abroad": "$45,000 - $90,000 per year"
+  },
+  "study_difficulty": "Moderate"
+}

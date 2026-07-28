@@ -1,0 +1,33 @@
+{
+  "career_path": "B.Sc Agriculture",
+  "description": "Study agricultural science, crop production, soil management, and modern farming techniques to improve food production and sustainable agriculture.",
+  "degrees": ["B.Sc Agriculture"],
+  "eligibility": "Intermediate (BiPC)",
+  "entrance_exams": [
+    "State CET",
+    "ICAR AIEEA",
+    "University Entrance Exam"
+  ],
+  "course_duration": "4 years",
+  "specializations": [
+    "Agronomy",
+    "Horticulture",
+    "Soil Science",
+    "Plant Breeding and Genetics"
+  ],
+  "abroad_study": {
+    "available": true,
+    "popular_countries": [
+      "USA",
+      "Canada",
+      "Australia",
+      "UK",
+      "Netherlands"
+    ]
+  },
+  "approximate_salary": {
+    "india": "₹3 LPA - ₹10+ LPA",
+    "abroad": "$50,000 - $90,000 per year"
+  },
+  "study_difficulty": "Moderate to High"
+}

@@ -1,0 +1,32 @@
+{
+  "career_path": "B.Sc Biotechnology",
+  "description": "Study living organisms and biotechnology to develop products and technologies for healthcare, agriculture, and industry.",
+  "degrees": ["B.Sc Biotechnology"],
+  "eligibility": "Intermediate (BiPC)",
+  "entrance_exams": [
+    "State CET",
+    "University Entrance Exam"
+  ],
+  "course_duration": "3 years",
+  "specializations": [
+    "Genetic Engineering",
+    "Molecular Biology",
+    "Industrial Biotechnology",
+    "Medical Biotechnology"
+  ],
+  "abroad_study": {
+    "available": true,
+    "popular_countries": [
+      "USA",
+      "Canada",
+      "UK",
+      "Australia",
+      "Germany"
+    ]
+  },
+  "approximate_salary": {
+    "india": "₹3 LPA - ₹10+ LPA",
+    "abroad": "$50,000 - $100,000 per year"
+  },
+  "study_difficulty": "Moderate to High"
+}

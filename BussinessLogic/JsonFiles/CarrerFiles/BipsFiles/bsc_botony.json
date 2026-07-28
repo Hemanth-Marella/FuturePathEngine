@@ -1,0 +1,32 @@
+{
+  "career_path": "B.Sc Botany",
+  "description": "Study plants, their structure, growth, genetics, ecology, and applications in agriculture, medicine, and environmental conservation.",
+  "degrees": ["B.Sc Botany"],
+  "eligibility": "Intermediate (BiPC)",
+  "entrance_exams": [
+    "State CET",
+    "University Entrance Exam"
+  ],
+  "course_duration": "3 years",
+  "specializations": [
+    "Plant Biotechnology",
+    "Plant Pathology",
+    "Plant Ecology",
+    "Taxonomy"
+  ],
+  "abroad_study": {
+    "available": true,
+    "popular_countries": [
+      "USA",
+      "Canada",
+      "Australia",
+      "UK",
+      "Germany"
+    ]
+  },
+  "approximate_salary": {
+    "india": "₹3 LPA - ₹8+ LPA",
+    "abroad": "$45,000 - $85,000 per year"
+  },
+  "study_difficulty": "Moderate"
+}

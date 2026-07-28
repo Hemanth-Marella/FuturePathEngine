@@ -1,0 +1,33 @@
+{
+  "career_path": "B.V.Sc",
+  "description": "Study veterinary science to diagnose, treat, and prevent diseases in animals while promoting animal health, welfare, and livestock management.",
+  "degrees": ["B.V.Sc"],
+  "eligibility": "Intermediate (BiPC)",
+  "entrance_exams": [
+    "NEET-UG",
+    "State CET",
+    "University Entrance Exam"
+  ],
+  "course_duration": "5.5 years",
+  "specializations": [
+    "Veterinary Surgery",
+    "Animal Nutrition",
+    "Veterinary Pathology",
+    "Livestock Production and Management"
+  ],
+  "abroad_study": {
+    "available": true,
+    "popular_countries": [
+      "USA",
+      "Canada",
+      "Australia",
+      "UK",
+      "New Zealand"
+    ]
+  },
+  "approximate_salary": {
+    "india": "₹4 LPA - ₹12+ LPA",
+    "abroad": "$60,000 - $120,000 per year"
+  },
+  "study_difficulty": "High"
+}

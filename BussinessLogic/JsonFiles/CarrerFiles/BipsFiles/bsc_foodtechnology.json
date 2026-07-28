@@ -1,0 +1,33 @@
+{
+  "career_path": "B.Sc Food Technology",
+  "description": "Study food processing, preservation, quality control, and food safety to develop nutritious, safe, and innovative food products.",
+  "degrees": ["B.Sc Food Technology"],
+  "eligibility": "Intermediate (BiPC)",
+  "entrance_exams": [
+    "State CET",
+    "ICAR AIEEA",
+    "University Entrance Exam"
+  ],
+  "course_duration": "4 years",
+  "specializations": [
+    "Food Processing",
+    "Food Safety and Quality Assurance",
+    "Food Engineering",
+    "Dairy Technology"
+  ],
+  "abroad_study": {
+    "available": true,
+    "popular_countries": [
+      "USA",
+      "Canada",
+      "Australia",
+      "UK",
+      "Netherlands"
+    ]
+  },
+  "approximate_salary": {
+    "india": "₹3 LPA - ₹10+ LPA",
+    "abroad": "$50,000 - $100,000 per year"
+  },
+  "study_difficulty": "Moderate"
+}

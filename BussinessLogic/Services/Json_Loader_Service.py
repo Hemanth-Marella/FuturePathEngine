@@ -6,7 +6,7 @@ from typing import Any,Dict,List
 
 class JsonLoaderService:
 
-    def __init__(self,data_directory = "JsonFiles"):
+    def __init__(self,data_directory = "BussinessLogic/JsonFiles"):
 
         self.data_directory = Path(data_directory)
 

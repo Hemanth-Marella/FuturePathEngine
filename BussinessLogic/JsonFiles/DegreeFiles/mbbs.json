@@ -1,0 +1,47 @@
+{
+  "degree_name": "MBBS",
+  "full_form": "Bachelor of Medicine and Bachelor of Surgery",
+  "description": "An undergraduate medical degree that trains students to become licensed medical doctors through theoretical, clinical, and practical education.",
+  "duration": "5.5 years (4.5 years academic + 1 year compulsory internship)",
+  "degree_level": "Undergraduate",
+  "required_group": [
+    "BiPC"
+  ],
+  "minimum_qualification": "Intermediate (10+2)",
+  "required_subjects": [
+    "Physics",
+    "Chemistry",
+    "Biology"
+  ],
+  "minimum_age": 17,
+  "entrance_exams": [
+    "NEET UG"
+  ],
+  "course_subjects": [
+    "Anatomy",
+    "Physiology",
+    "Biochemistry",
+    "Pathology",
+    "Pharmacology",
+    "Microbiology",
+    "Forensic Medicine",
+    "Community Medicine",
+    "General Medicine",
+    "General Surgery",
+    "Obstetrics and Gynecology",
+    "Pediatrics"
+  ],
+  "internship": {
+    "mandatory": true,
+    "duration": "1 year"
+  },
+  "higher_studies": [
+    "MD",
+    "MS",
+    "DM",
+    "MCh",
+    "DNB"
+  ],
+  "license_required": true,
+  "future_scope": "Excellent"
+}
