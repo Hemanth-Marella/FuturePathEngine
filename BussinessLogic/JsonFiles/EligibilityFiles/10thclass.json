@@ -1,0 +1,17 @@
+{
+  "group_name": "10th",
+  "completed":9,
+  "description": "Students who complete Class 10 can choose different education pathways based on their interests and career goals.",
+  "next_study_options": [
+    "Intermediate (MPC)",
+    "Intermediate (BiPC)",
+    "Intermediate (MEC)",
+    "Intermediate (CEC)",
+    "Intermediate (HEC)",
+    "Intermediate (Vocational)",
+    "Diploma",
+    "ITI",
+    "Polytechnic",
+    "IIIT"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "group_name": "Vocational",
+  "minimum_qualification": "10th Pass",
+  "eligible_careers": [
+    "Electrician",
+    "Fitter",
+    "Welder",
+    "Machinist",
+    "Automobile Technician",
+    "Mechanical Technician",
+    "Computer Hardware Technician",
+    "Network Technician",
+    "Lab Technician",
+    "Medical Lab Technician",
+    "Radiology Technician",
+    "Nursing Assistant",
+    "Agriculture Officer",
+    "Agricultural Technician",
+    "Fashion Designer",
+    "Interior Designer",
+    "Beautician",
+    "Chef",
+    "Hotel Manager",
+    "Tourism Executive",
+    "Graphic Designer",
+    "Multimedia Designer",
+    "Photographer",
+    "Videographer",
+    "Entrepreneur",
+    "Skilled Technician"
+  ]
+}
